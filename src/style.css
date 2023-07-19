@@ -16,6 +16,7 @@ li {
   display: block;
   font-family: arial, sans-serif;
   font-size: 16px;
+  text-transform: capitalize;
   font-weight: 100;
   line-height: 19px;
   margin: 0;
