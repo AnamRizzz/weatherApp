@@ -48,8 +48,8 @@ function displayTemperature(response) {
 
 function search(city) {
   let apiKey = "af1b878f87cdb459606e31d14171bd26";
-  let city = "Winnipeg";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q={city}&appid=${apikey}&units=metric`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayTemperature);
 }
 
 function handleSubmit(event) {
